@@ -1,5 +1,8 @@
 # Factorial SDE for Multi-Output Gaussian Process Regression
-This is the GitHub repository for the paper "Factorial SDE for Multi-Output Gaussian Process Regression". This repository includes implementations of the factorial SDE (FSDE) and the factorial SDE with sparse variational inference (FSDE-SVI), along with all of the baselines and the Python scripts used for experiments.
+This is the official GitHub repository for the paper:
+> Daniel P. Jeong and Seyoung Kim. Factorial SDE for Multi-Output Gaussian Process Regression. *Proceedings of the 26th International Conference on Artificial Intelligence and Statistics (AISTATS)*, 2023.
+
+This repository includes implementations of the factorial SDE (FSDE) and the factorial SDE with sparse variational inference (FSDE-SVI), along with all of the baselines and the Python scripts used for experiments.
 
 <br>
 
