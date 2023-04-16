@@ -1,5 +1,5 @@
 # Factorial SDE for Multi-Output Gaussian Process Regression
-This is the official GitHub repository for the [paper](https://github.com/SeyoungKimLab/FactorialSDE/blob/main/Factorial%20SDE%20for%20Multi-Output%20Gaussian%20Process%20Regression%20(Jeong%20and%20Kim%2C%202023).pdf):
+This is the official GitHub repository for the [paper](https://proceedings.mlr.press/v206/jeong23a.html):
 > Daniel P. Jeong and Seyoung Kim. Factorial SDE for Multi-Output Gaussian Process Regression. *Proceedings of the 26th International Conference on Artificial Intelligence and Statistics (AISTATS)*, 2023.
 
 This repository includes implementations of the factorial SDE (FSDE) and the factorial SDE with sparse variational inference (FSDE-SVI), along with all of the baselines and the Python scripts used for experiments.
@@ -100,3 +100,25 @@ python3 real_lmc.py <Number between 1 and 4> --natgrad
 ```
 
 The required positional argument, which accepts numbers between 1 and 4, specifies which real dataset to run the experiment on. 1 corresponds to the COVID-19 dataset, 2 to the Stock dataset, 3 to the Energy dataset, and 4 to the Air Quality dataset. All results will be saved under `./fsde/real_exps/<dataset>_results` in `.pkl` format.
+
+<br>
+
+### Citing Our Work
+
+If you find our work useful, please consider citing:
+```bibtex
+@InProceedings{pmlr-v206-jeong23a,
+  title = 	 {Factorial SDE for Multi-Output Gaussian Process Regression},
+  author =       {Jeong, Daniel P. and Kim, Seyoung},
+  booktitle = 	 {Proceedings of The 26th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {9755--9772},
+  year = 	 {2023},
+  editor = 	 {Ruiz, Francisco and Dy, Jennifer and van de Meent, Jan-Willem},
+  volume = 	 {206},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--27 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v206/jeong23a/jeong23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v206/jeong23a.html}
+}
+```
